@@ -46,5 +46,15 @@ console.log("function result:", result);
 
 //simple backend login
 const admin={
-    
+    username:"admin",
+    password:"1234"
+};
+
+function login(username,password){
+    if(username===admin.username && password===admin.password){
+        console.log("Login Successful");
+    }else{
+        console.log("Login Failed");
+    }
 }
+login("admin","1234");
