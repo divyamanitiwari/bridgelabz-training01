@@ -1,3 +1,11 @@
+console.log("Anubhav");
+//2 variable
+let name = "jay";  //string
+let age=22;              //number
+const country="India";   //constant
+let isstudent = true ;   //boolean
+
+
 console.log(name);
 console.log(age);
 console.log(country);
@@ -18,5 +26,25 @@ if(loginAge>=18){
     console.log("Allowed to login")
 }    
 else {
-    console.log("Not Allowed")
+    console.log("Not Allowed");
+}
+
+//loop (for)
+for(let i=1;i<=5;i++){
+    console.log("loop count:", i);
+}
+
+//function 
+function add(x,y){
+    return x+y;
+}
+
+
+let result =add(20,30);
+console.log("function result:", result);
+
+
+//simple backend login
+const admin={
+    
 }
